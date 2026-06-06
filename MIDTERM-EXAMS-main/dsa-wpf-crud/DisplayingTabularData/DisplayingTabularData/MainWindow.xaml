@@ -25,7 +25,7 @@
                   AutoGenerateColumns="False"
                   SelectionMode="Single"
                   CanUserAddRows="False"
-                  Margin="0,10,400,242" SelectionChanged="ProductsDataGrid_SelectionChanged" Grid.ColumnSpan="2"
+                  Margin="0,50,409,134" SelectionChanged="ProductsDataGrid_SelectionChanged" Grid.ColumnSpan="2"
                  >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="30"/>
@@ -36,7 +36,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Border Grid.Row="1" BorderThickness="1" CornerRadius="4" Padding="8" BorderBrush="#DDD" Margin="-10,287,-10,0" Grid.ColumnSpan="2">
+        <Border Grid.Row="1" BorderThickness="1" CornerRadius="4" Padding="8" BorderBrush="#DDD" Margin="-10,388,-10,0" Grid.ColumnSpan="2">
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,1,0,0" Width="780" >
                 <StackPanel Orientation="Vertical" Margin="0,0,12,0">
                     <TextBlock Text="ID" />
@@ -74,7 +74,7 @@
             AutoGenerateColumns="False"
             SelectionMode="Single"
             CanUserAddRows="False"
-            Margin="33,10,0,242" SelectionChanged="ShoppingCartDataGrid_SelectionChanged" Grid.Column="1"
+            Margin="28,50,0,135" SelectionChanged="ShoppingCartDataGrid_SelectionChanged" Grid.Column="1"
                  >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="30"/>
@@ -83,7 +83,7 @@
                 <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
-        <TextBlock HorizontalAlignment="Left" Height="29" Margin="139,250,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Available Items" VerticalAlignment="Top" Width="122" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Height="29" Margin="172,250,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Shopping Cart" VerticalAlignment="Top" Width="122" FontSize="18" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Center" Height="29" Margin="0,354,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Available Items" VerticalAlignment="Top" Width="122" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Center" Height="29" Margin="0,354,0,0" Grid.RowSpan="2" TextWrapping="Wrap" Text="Shopping Cart" VerticalAlignment="Top" Width="122" FontSize="18" Grid.Column="1"/>
     </Grid>
 </Window>
